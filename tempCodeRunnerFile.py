@@ -1,5 +1,3 @@
-num1=int(input("Enter first number "))
-num2=int(input("Enter Second number "))
-result=num1+num2
-print(type)
-print(result)
+a=str(input("Enter your name - "))
+b=int(input("Enter your Booking Number - "))
+print("Client information :- ",a,b)

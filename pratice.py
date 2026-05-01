@@ -15,3 +15,10 @@ print(type(var1))
 # type conversion
 var1=1000
 print(type(var1))
+
+num1=50
+num2=30
+print(type(num1), type(num2))
+res=str(num1)+str(num2)
+print(res)
+print(type(res))

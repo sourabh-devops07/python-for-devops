@@ -5,7 +5,7 @@ print(type(n2))
 
 name = "sourabh"
 name1= "Vittu"
-print(name+" "+name1) # concatlization add 2 string
+print(name+" "+name1) # concatlination add 2 string
 print(type(name))
 
 # type casting

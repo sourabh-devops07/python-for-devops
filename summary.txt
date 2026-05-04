@@ -7,3 +7,4 @@ data types
 number (int, float)
 string('', "" "", """ """)
 boolean (true or false)
+

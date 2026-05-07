@@ -1,3 +1,7 @@
-age=int(input("Enter the Age :-  "))
-status = "Adult😋" if age>=18 else "Minor😥" 
-print(status)
+num = int(input("Enter the Number :- "))
+if num > 0:
+    print("Number is POSITIVE😁")
+elif num <0:
+    print("Number is NEGATIVE😌")
+else:
+    print("Zero") 

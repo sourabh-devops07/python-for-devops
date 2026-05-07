@@ -94,11 +94,35 @@ elif 50<marks<=60:
 elif 0<marks<=50:
     print("Grade - F")
 else:
-    print("Invalid Marks")    
+    print("Invalid Marks")   
+    
+    
+# sigle line ifelse 
+
+# Write a python script to check whether a given number is positive or non positive ?
+
+print("Enter a Number - ")
+a=int(input())
+print("Positive") if a>0 else print("non Positive")    
+
+# Even or Odd
+
+a=10
+result="Even" if a%2==0 else "odd" 
+print(result)
                     
-   
+   # Pass or fail example
     
-    
+marks=int(input("Enter Marks - "))
+result = "Pass" if marks>=40 else "Fail" 
+print(result)  
+
+
+# Real life logic
+
+age=int(input("Enter the Age :-  "))
+status = "Adult😋" if age>=18 else "Minor😥" 
+print(status)  
     
     
     

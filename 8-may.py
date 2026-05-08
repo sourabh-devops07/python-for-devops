@@ -78,9 +78,9 @@ for r in range(10, 15, -1):
 
 # 1. WAP to take start point and end_point from user input and print all number divsible by 2 and 3. 
 
-num01=int(input("Enter the Start point - "))
-num02=int(input("Enter the End point - "))
-for i in range(num01, num02):
+start_point=int(input("Enter the Start point - "))
+end_point=int(input("Enter the End point - "))
+for i in range(start_point, end_point):
     if i%2==0 and i%3==0:
         print(i, end=" ")
         

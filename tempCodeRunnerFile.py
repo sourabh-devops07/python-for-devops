@@ -1,4 +1,4 @@
-num1=int(input("Enter the Number - "))
-for i in range(10,0,-1):
-    result=num1*i
-    print(f"{num1} X {i} = {result}") 
+str1="PYTHON"
+size=len(str1)
+for i in range(size):
+    print(str1[i],str1, i)
